@@ -1,0 +1,87 @@
+
+/**this is for initiate*/
+.bbbb{
+    display: inline-block;
+    height: 220px;
+    width: 79%;
+    overflow: scroll;
+    overflow-x: scroll;
+}
+#head{
+    display: inline-block;
+}
+
+.testTable thead th {
+    background: #0199d9;
+   /** width:125px;*/
+    border: 1px solid #1d96b2;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+  
+}
+
+/**    this is optional for the tblody of table update clearance status */
+.testTable tbody th {
+    width:12.75%;
+    color:black;
+    font-size: 20px;
+    border-bottom: 1px solid #1d96b2;
+    font-weight: normal;
+    text-align: center;  
+
+}
+
+/*******/
+.testTable tbody{
+    width:1025px;
+    margin-bottom: 1em;
+}
+.testTable tbody tr {
+    margin-bottom: 1em;
+    border: 2px solid #1d96b2;
+}.testTable tbody tr:last-of-type {
+    margin-bottom: 0;
+}
+@media (min-width: 48em) {
+    .testTable tbody tr:nth-of-type(even) {
+        background-color: rgba(94, 93, 82, 0.1);
+    }
+}
+
+
+@media (min-width: 30em) {/**/
+    .testTable tbody td {
+        border-bottom: 1px solid #1d96b2;
+            height: 30px;
+        }
+}
+/*@media (min-width: 30em) {
+    .testTable tbody th {
+        border-bottom: 1px solid #1d96b2;
+            width: 240px;
+        }
+}*/
+
+.testTable{
+    width: 1050px;
+}
+
+/**                 FOOT            **/
+
+.testTable tfoot {
+    font-size: .8em;
+    color:black;
+    font-style: italic;
+    width:120%;
+
+
+/**************************************************/
+
+
+.testTable tbody th[scope="row"] {/**/
+    background-color: #1d96b2;
+    color: white;
+}
+}
+
